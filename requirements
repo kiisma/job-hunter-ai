@@ -1,0 +1,2 @@
+# Compatibility file for workflows using `pip install -r requirements`.
+-e .
