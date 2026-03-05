@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPERATOR_CHAT_ID=${OPERATOR_CHAT_ID}
+      - RUSSIA_SHIPPING_PER_KG=${RUSSIA_SHIPPING_PER_KG:-15}
+      - MARKUP_PERCENT=${MARKUP_PERCENT:-25}
