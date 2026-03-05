@@ -3,6 +3,5 @@
 
 # ── Telegram Shipping Bot ─────────────────────────────────────────────────────
 python-telegram-bot>=20.7
-anthropic>=0.40.0
-playwright>=1.43.0
+claude-agent-sdk          # Claude Agent SDK — includes WebFetch, no browser needed
 python-dotenv>=1.0.0
